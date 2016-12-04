@@ -7334,3 +7334,46 @@ button.close {
     display: none !important;
   }
 }
+@media (min-width: 768px) {
+  .presentation .vcenter {
+    margin-top: 30%;
+  }
+
+  .imageApp {
+    height: 90%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+}
+@media (max-width: 768px) {
+  .presentation {
+    padding-top: 20px;
+  }
+
+  .imageApp {
+    max-width: 500px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.presentation {
+  min-height: 100%;
+  background: url("../images/background.jpg");
+  background-position: center top;
+  background-size: cover;
+  color: white;
+  font-size: 1.6em;
+  overflow: none;
+}
+.presentation .row-centered {
+  text-align: center;
+}
+.presentation .row-centered .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+}
+.presentation .row-centered .space {
+  margin-bottom: 20px;
+}
