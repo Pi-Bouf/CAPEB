@@ -4,6 +4,7 @@
 <head>
     <title>CAPEB - TP Lefevre</title>
     <link rel="stylesheet" href="styles/CAPEB.css">
+    <link rel="stylesheet" href="styles/style_normal.css">
     <script src="scripts/CAPEB.min.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
 </head>
@@ -35,6 +36,15 @@
                 <img class="imageApp" src="images/capeb_app_screen.png">
             </div>
         </div>
+        <div class="style-changer">
+            <label for="styleChanger" style="color: white;">Style: </label>
+            <select class="color: black;" id="styleChanger">
+                    <option value="normal">Normal</option>
+                    <option value="color">Couleur</option>
+                    <option value="disco">Disco</option>
+                    <option value="oldy">Oldy</option>
+                </select>
+        </div>
         <div class="row row-centered social">
             <div class="col-md-8 col-centered">
                 Besoin d'une présentation rapide par email ? Avec plaisir, saisissez votre email et vous recevrez immédiatement un très joli email.
@@ -53,7 +63,6 @@
                     </form>
                 </div>
             </div>
-            <div class="fi facebook"></div>
             <div class="row social-icons">
                 <div class="col-md-3 col-sm-3 col-xs-6">
                     <div class="fi facebook"></div>
@@ -69,7 +78,9 @@
                 </div>
             </div>
             <div class="row footer-bar">
-                <div class="col-md-11 copyright">MIW 2015</div>
+                <div class="col-md-11 copyright">
+                    MIW 2015
+                </div>
             </div>
         </div>
     </div>

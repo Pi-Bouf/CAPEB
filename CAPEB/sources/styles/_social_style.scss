@@ -1,0 +1,36 @@
+.container-fluid {
+    background-color: $background-color;
+}
+
+.social {
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 16px;
+    color: $social-color;
+    .input-group {
+        input {
+            border: 1px solid $input-border;
+        }
+        button {
+            background-color: $button-background;
+            border: 1px solid $button-border;
+            color: $button-color;
+        }
+    }
+    .social-icons {
+        margin-top: 150px;
+        background-color: $social-icons-background;
+        padding: 20px;
+        .fi {
+            color: $icon-color;
+        }
+    }
+    .footer-bar {
+        background-color: $footer-background;
+        .copyright {
+            font-size: 20px;
+            margin: 10px;
+            color: $copyright-color;
+        }
+    }
+}
