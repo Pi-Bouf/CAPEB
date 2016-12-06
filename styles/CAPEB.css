@@ -3140,7 +3140,7 @@ output {
   color: #555555;
   background-color: #fff;
   background-image: none;
-  border: 1px solid #ccc;
+  border: 1px solid #000;
   border-radius: 4px;
   -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
@@ -3674,7 +3674,7 @@ select[multiple].input-lg,
   outline-offset: -2px;
 }
 .btn:hover, .btn:focus, .btn.focus {
-  color: #333;
+  color: #FFF;
   text-decoration: none;
 }
 .btn:active, .btn.active {
@@ -3696,40 +3696,40 @@ a.btn.disabled, fieldset[disabled] a.btn {
 }
 
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #FFF;
+  background-color: #000;
+  border-color: #000;
 }
 .btn-default:focus, .btn-default.focus {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #8c8c8c;
+  color: #FFF;
+  background-color: black;
+  border-color: black;
 }
 .btn-default:hover {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #FFF;
+  background-color: black;
+  border-color: black;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
-  color: #333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #FFF;
+  background-color: black;
+  border-color: black;
 }
 .btn-default:active:hover, .btn-default:active:focus, .btn-default:active.focus, .btn-default.active:hover, .btn-default.active:focus, .btn-default.active.focus, .open > .btn-default.dropdown-toggle:hover, .open > .btn-default.dropdown-toggle:focus, .open > .btn-default.dropdown-toggle.focus {
-  color: #333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  color: #FFF;
+  background-color: black;
+  border-color: black;
 }
 .btn-default:active, .btn-default.active, .open > .btn-default.dropdown-toggle {
   background-image: none;
 }
 .btn-default.disabled:hover, .btn-default.disabled:focus, .btn-default.disabled.focus, .btn-default[disabled]:hover, .btn-default[disabled]:focus, .btn-default[disabled].focus, fieldset[disabled] .btn-default:hover, fieldset[disabled] .btn-default:focus, fieldset[disabled] .btn-default.focus {
-  background-color: #fff;
-  border-color: #ccc;
+  background-color: #000;
+  border-color: #000;
 }
 .btn-default .badge {
-  color: #fff;
-  background-color: #333;
+  color: #000;
+  background-color: #FFF;
 }
 
 .btn-primary {
@@ -7366,14 +7366,29 @@ button.close {
   font-size: 1.6em;
   overflow: none;
 }
-.presentation .row-centered {
-  text-align: center;
+
+.social {
+  padding-top: 100px;
+  font-weight: bold;
+  font-size: 16px;
 }
-.presentation .row-centered .col-centered {
+
+.row-centered {
+  text-align: center;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.row-centered .col-centered {
   display: inline-block;
   float: none;
   text-align: left;
 }
-.presentation .row-centered .space {
+.row-centered .col-centered .input-group {
+  margin-top: 30px;
+}
+.row-centered .col-centered .input-group button {
+  padding: 6px 2px 7px 2px;
+}
+.row-centered .space {
   margin-bottom: 20px;
 }
